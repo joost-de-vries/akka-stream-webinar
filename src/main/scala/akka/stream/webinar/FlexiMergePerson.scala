@@ -4,6 +4,7 @@ import akka.actor.ActorSystem
 import akka.stream.FlowMaterializer
 import akka.stream.scaladsl.FlexiMerge.{ ReadAllInputs, ReadAll, InputHandle, MergeLogic }
 import akka.stream.scaladsl.{ FlexiMerge, Broadcast, Flow, FlowGraph, FlowGraphImplicits, Sink, Source, Zip, ZipWith }
+import scala.io.StdIn._
 
 import scala.collection.immutable.IndexedSeq
 import scala.concurrent.Future

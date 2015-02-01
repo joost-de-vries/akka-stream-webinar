@@ -3,6 +3,7 @@ package akka.stream.webinar
 import akka.actor.ActorSystem
 import akka.stream.FlowMaterializer
 import akka.stream.scaladsl.{ Merge, Broadcast, FlowGraph, FlowGraphImplicits, Sink, Source, Flow }
+import scala.io.StdIn._
 
 import scala.concurrent.Future
 

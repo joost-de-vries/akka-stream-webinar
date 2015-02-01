@@ -4,6 +4,7 @@ import akka.actor.ActorSystem
 import akka.stream.FlowMaterializer
 import akka.stream.scaladsl.FlexiMerge.{ InputHandle, MergeLogic, ReadAll, ReadAllInputs }
 import akka.stream.scaladsl.{ FlexiMerge, FlowGraph, FlowGraphImplicits, Sink, Source }
+import scala.io.StdIn._
 
 import scala.collection.immutable.IndexedSeq
 

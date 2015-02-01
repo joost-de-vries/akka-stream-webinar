@@ -1,6 +1,7 @@
 package akka.stream.webinar
 
 import java.net.InetSocketAddress
+import scala.io.StdIn._
 
 import akka.actor.ActorSystem
 import akka.stream.FlowMaterializer

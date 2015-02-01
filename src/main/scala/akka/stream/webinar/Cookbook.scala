@@ -3,6 +3,7 @@ package akka.stream.webinar
 import akka.util.ByteString
 
 import scala.annotation.tailrec
+import scala.io.StdIn._
 
 object Cookbook {
 
